@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(cpp_common)
 
+message("bgb 1")
 find_package(Boost REQUIRED COMPONENTS system thread)
+message("bgb 2")
+find_package(kaksjddnfjsdfn REQUIRED)
 find_package(console_bridge REQUIRED)
 find_package(catkin REQUIRED)
 catkin_package(
